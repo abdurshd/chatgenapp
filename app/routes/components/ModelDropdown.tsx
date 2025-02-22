@@ -2,7 +2,7 @@
 import { useState } from 'react';
 
 export default function ModelDropdown() {
-  const [selectedModel, setSelectedModel] = useState('gpt-3.5');
+  const [selectedModel, setSelectedModel] = useState('deepseek');
 
   return (
     <div className="relative inline-block w-64">
